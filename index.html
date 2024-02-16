@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Cards</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="navbar" class="navbar">
+        <!-- Filter buttons will be dynamically added here -->
+    </div>
+    
+    <div id="card-container"></div>
+  <!-- Modal for displaying suggested inventory -->
+<div id="inventoryModal" class="modal">
+    
+    <div class="modal-content">
+        <span class="close" onclick="document.getElementById('inventoryModal').style.display='none'">&times;</span>
+        <div id="modalContent">
+            
+            <!-- Suggested inventory items will be added here -->
+        </div>
+    </div>
+</div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
